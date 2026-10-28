@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="" novalidate target="">
+        <div>
+            <input type="hidden" value="test" id="">
+        </div>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="user" id="username" required placeholder="Enter your username" value="Mohammad ghanem" readonly>
+        </div>
+        <br>
+        <div>
+            <label for="userpass">Password</label>
+            <input type="password"
+            minlength="10"
+            maxlength="20"
+            name="pass" id="userpass"
+            required placeholder="Enter a complex password"
+            autofocus>
+        </div>
+        <br>
+        <div>
+            <label for="usermail">Email</label>
+            <input type="email" name="mail" id="usermail"  placeholder="enter a valid email" value="kazakaza@gmail.com" disabled>
+        </div>
+        <br>
+        <div>
+            <label for="rng">Range</label>
+            <input type="range" name="range" id="rng" min="0" max="100" step="50">
+        </div>
+        <br>
+        <div>
+            <label for="num">Number</label>
+            <input type="number" name="range" id="num" min="0" max="100" step="2">
+        </div>
+        <input type="submit" name="submit" id="submitbtn" value="save">
+        <input type="reset" name="reset" id="resetbtn">
+        <input type="color" name="color">
+
+        <br>
+        <hr>
+
+        <input list="programming" name="prog"> <!-- datalist like select but has search inside it-->
+            <datalist id="programming">
+                <option value="html"></option>
+                <option value="css"></option>
+                <option value="js"></option>
+                <option value="java"></option>
+                <option value="c++"></option>
+            </datalist>
+        
+    <!-- novalidate (for testing) , target (open new page)-->
+        
+
+    </form>
+</body>
+</html>
